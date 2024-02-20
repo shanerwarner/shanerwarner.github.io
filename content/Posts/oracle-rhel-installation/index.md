@@ -175,73 +175,36 @@ Download the Oracle 19c Software from Oracle's Offical Website Copy it to  `$ORA
 ```
 ### Oracle 19c DB Software Installation Wizard will appear.
 
+1. Select **Setup Software Only**.
+![Step 01](screenshots/1.png)
+
+2. Select **Single Instance Database Installation**.
+![Step 02](screenshots/2.png)
+
+3. Select **Enterprise Edition**.
+![Step 03](screenshots/3.png)
+
+4. Verify **Oracle Base Location** and Proceed to the Next Step
+![Step 04](screenshots/4.png)
+
+5. Verify **Oracle Inventory Location** and Proceed to the Next Step
+![Step 05](screenshots/5.png)
 
 
-{{< timeline >}}
-
-{{< timelineItem icon="star" header="Step 1 of 9" subheader=" Select 'Setup Software Only'" >}}
-{{< gallery >}}
-  <img src="https://i.imgur.com/hLbY4kt.png" class="grid-w50" />
-{{< /gallery >}}
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="Step 2 of 9" subheader=" Select 'Single Instance Database Only'" >}}
-{{< gallery >}}
-  <img src="https://i.imgur.com/9xuINtL.png" class="grid-w50" />
-{{< /gallery >}}
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="Step 3 of 9" subheader=" Select 'Enterprise Edition'" >}}
-{{< gallery >}}
-  <img src="https://i.imgur.com/7ENP9hM.png" class="grid-w50" />
-{{< /gallery >}}
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="Step 4 of 9" subheader="Verify Oracle Base Location and Proceed to the Next Step" >}}
-{{< gallery >}}
-  <img src="https://i.imgur.com/zZuWJvU.png" class="grid-w50" />
-{{< /gallery >}}
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="Step 5 of 9" subheader="Verify Oracle Inventory Directory and Proceed to the Next Step" >}}
-{{< gallery >}}
-  <img src="https://i.imgur.com/sIBXEQj.png" class="grid-w50" />
-{{< /gallery >}}
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="Step 6 of 9" subheader="Verify the OS Groups created in the Prerequisite Step above" >}}
-{{< gallery >}}
-  <img src="https://i.imgur.com/Ce16Gfa.png" class="grid-w50" />
-{{< /gallery >}}
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="Step 7 of 9" subheader="Important" >}}
-Select the "Automatically run Configuration Scrips and.
-
-Select use "root" and enter the root Password Below
-{{< gallery >}}
-  <img src="https://i.imgur.com/FlGhzv7.png" class="grid-w50" />
-{{< /gallery >}}
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="Step 8 of 9" subheader="The Installer will perform the Prerequisite Checks before proceeding" >}}
-<ul>
-<li>Save the Response File once the Checks have been completed</li>
-</ul>
-{{< gallery >}}
-  <img src="https://i.imgur.com/26mtUOY.png" class="grid-w50" />
-  <img src="https://i.imgur.com/YCsy1Kz.png" class="grid-w50" />
-{{< /gallery >}}
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="Step 9 of 9" subheader="Progress of Oracle 19c Software will begin." >}}
-{{< gallery >}}
-  <img src="https://i.imgur.com/d8La3WB.png" class="grid-w50" />
-{{< /gallery >}}
-{{< /timelineItem >}}
+6. Verify the **OS Groups** created in the Prerequisite Step above.
+![Step 06](screenshots/6.png)
 
 
-{{< /timeline >}}
+7. Select the **Automatically run Configuration Scrips** and Select **use root and enter the root** Password Below.
+![Step 07](screenshots/7.png)
+
+8. The Installer will perform the Prerequisite Checks before proceeding.
+Save the Response File once the Checks have been completed for future reference.
+![Step 08](screenshots/8.png)
+![Step 09](screenshots/9.png)
+
+9. Installation of Oracle 19c Software will begin.
+
 
 ##### Once the Installation has Completed, Execute the following command to verify the sqlplus version.
 
@@ -252,8 +215,7 @@ sqlplus -v
 ##### You will get the Following Output:
 
 ![](https://i.imgur.com/EKS7e8D.png)
-![](screenshots/1.png)
 
 {{< lead >}}
-👾You have successfully installed Oracle Database 19c Software on Red Hat Enterprise Linux 7.9
+You have successfully installed Oracle Database 19c Software on Red Hat Enterprise Linux 7.9 🔥
 {{< /lead >}}
