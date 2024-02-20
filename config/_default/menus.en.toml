@@ -4,7 +4,7 @@ none = "none"
 [[main]]
 name = "Posts"
 pre = "fire"
-pageRef = "/Posts"
+pageRef = "/posts"
 identifier = "1nmBwS51QB"
 weight = 1
 
