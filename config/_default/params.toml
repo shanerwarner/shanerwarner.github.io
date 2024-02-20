@@ -27,7 +27,7 @@ showRecentItems = "3"
 showMoreLink = true
 showMoreLinkDest = "/posts"
 cardView = false
-cardViewScreenWidth = false
+cardViewScreenWidth = true
 layoutBackgroundBlur = false
 
 [article]
