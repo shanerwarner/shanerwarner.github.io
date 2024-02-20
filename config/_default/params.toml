@@ -11,7 +11,7 @@ smartTOC = true
 mainSections = ["Posts"]
 
 [header]
-layout = "fixed-fill-blur"
+layout = "fixed"
 
 [footer]
 showMenu = true
