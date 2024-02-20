@@ -1,0 +1,111 @@
+colorScheme = "congo"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+enableSearch = true
+enableCodeCopy = true
+disableImageOptimization = true
+disableTextInHeader = false
+defaultBackgroundImage = "/img/background1.png"
+smartTOC = true
+
+mainSections = ["Posts"]
+
+[header]
+layout = "fixed-fill-blur"
+
+[footer]
+showMenu = true
+showCopyright = true
+showThemeAttribution = true
+showAppearanceSwitcher = true
+showScrollToTop = true
+
+[homepage]
+layout = "page"
+showRecent = true
+showRecentItems = "3"
+showMoreLink = true
+showMoreLinkDest = "/posts"
+cardView = false
+cardViewScreenWidth = false
+layoutBackgroundBlur = false
+
+[article]
+showDate = true
+showViews = true
+showLikes = true
+showDateOnlyInArticle = false
+showDateUpdated = false
+showAuthor = true
+showHero = false
+heroStyle = "big"
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = true
+showPagination = true
+invertPagination = true
+showReadingTime = false
+showTableOfContents = true
+showTaxonomies = false
+showAuthorsBadges = false
+showWordCount = false
+sharingLinks = [ "linkedin", "twitter", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email"]
+showZenMode = false
+
+
+[list]
+showHero = false
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showSummary = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+showCards = false
+groupByYear = true
+cardView = false
+cardViewScreenWidth = false
+constrainItemsWidth = "prose"
+
+[sitemap]
+excludedKinds = [ "taxonomy", "term" ]
+
+[taxonomy]
+showTermCount = true
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+cardView = false
+
+[term]
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = false
+cardViewScreenWidth = false
+
+[firebase]
+  apiKey = "AIzaSyCBa_q0fJ5edftHlwiErROpxjAqCECs-Bw"
+  authDomain = "thewired-in-blog-bd14c.firebaseapp.com"
+  projectId = "thewired-in-blog-bd14c"
+  storageBucket = "thewired-in-blog-bd14c.appspot.com"
+  messagingSenderId = "658995724752"
+  appId = "1:658995724752:web:0b71d0de6247eab26279d5"
+  measurementId = "G-K1RQQLQ1S0"
+
+[fathomAnalytics]
+
+[buymeacoffee]
+
+[verification]

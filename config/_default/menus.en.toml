@@ -1,0 +1,17 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "Posts"
+pre = "fire"
+pageRef = "/Posts"
+identifier = "1nmBwS51QB"
+weight = 1
+
+[[main]]
+name = "Privacy Policy"
+pageRef = "/PrivacyPolicy"
+weight = 2
+
+[[footer]]
+none = "none"
